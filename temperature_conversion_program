@@ -20,7 +20,7 @@ def displayFahrentoCelsius(start, end):
 
     for temp in range(start, end + 1):
         converted_temp = (temp - 32) * 5/9
-        print(' ', format(temp, '4.lf'), '  ', format(converted_temp, '4.lf'))
+        print(' ' .format(temp, '4.lf'), '  ' .format(converted_temp, '4.lf'))
 
 def displayCelsiustoFahern(start, end):
 
@@ -29,7 +29,7 @@ def displayCelsiustoFahern(start, end):
 
     for temp in range(start, end + 1):
         converted_temp = (9/5 * temp) + 32
-        print(' ', format(temp, '4.lf'), ' ', format(converted_temp, '4.lf'))
+        print(' ' .format(temp, '4.lf'), ' ' .format(converted_temp, '4.lf'))
 
 # ---- main
 
